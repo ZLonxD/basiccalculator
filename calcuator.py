@@ -1,6 +1,6 @@
-num1 = float(input("Sayı Giriniz :"))
-op = input("İşlem Giriniz :")
-num2 = float(input("Sayı Giriniz :"))
+num1 = float(input("Enter a number :"))
+op = input("Enter a operator :")
+num2 = float(input("Enter a number :"))
 
 
 if op =="+":
@@ -16,4 +16,4 @@ elif op =="/":
     print(num1 / num2)
 
 else :
-    print("Hata!")
+    print("Error!")
